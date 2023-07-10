@@ -13,7 +13,6 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-    - name: Mend CLI Scan
       ## Maven example - replace with your build steps
     - name: Set up JDK
       uses: actions/setup-java@v2
